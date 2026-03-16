@@ -694,6 +694,7 @@ body.light .hero-name-outline {
 
   .hero { padding: 6rem 1.5rem 3rem; justify-content: flex-start; min-height: unset; }
   .hero-inner { flex-direction: row; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+  .hero-name { font-size: clamp(2.25rem, 8vw, 3.5rem); }
   .hero-photo-wrap { width: 38vw; height: 52vw; max-width: 160px; max-height: 210px; flex-shrink: 0; }
   .hero-bottom { flex-direction: column; align-items: flex-start; gap: 1.5rem; }
   .theme-toggle { right: 0.75rem; top: auto; bottom: 1.5rem; transform: none; }
