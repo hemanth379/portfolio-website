@@ -701,7 +701,7 @@ body.light .hero-name-outline {
   .hero-name-outline { -webkit-text-stroke: 1px var(--text); }
   .hero-photo-wrap { width: 38vw; height: 52vw; max-width: 160px; max-height: 210px; flex-shrink: 0; }
   .hero-bottom { flex-direction: column; align-items: flex-start; gap: 1.5rem; }
-  .hero-scroll-hint { bottom: -3rem; right: 1.5rem; }
+  .hero-scroll-hint { display: none; }
   .theme-toggle { right: 0.75rem; top: auto; bottom: 1.5rem; transform: none; }
   .theme-toggle:hover { transform: scale(1.1); }
 
