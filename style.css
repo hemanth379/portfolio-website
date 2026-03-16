@@ -381,6 +381,10 @@ body.light .hero-name-outline {
   padding-top: 0.25rem;
 }
 
+.exp-meta-inline {
+  display: none;
+}
+
 .exp-date {
   font-size: 0.8rem;
   color: var(--text-muted);
@@ -699,6 +703,7 @@ body.light .hero-name-outline {
   .hero-inner { flex-direction: row; align-items: center; gap: 1rem; margin-bottom: 2rem; }
   .hero-name { font-size: clamp(2.25rem, 8vw, 3.5rem); }
   .hero-name-outline { -webkit-text-stroke: 1px var(--text); }
+  .hero-tag { font-size: 0.6rem; }
   .hero-photo-wrap { width: 38vw; height: 52vw; max-width: 160px; max-height: 210px; flex-shrink: 0; }
   .hero-bottom { flex-direction: column; align-items: flex-start; gap: 1.5rem; }
   .hero-scroll-hint { display: none; }
@@ -711,6 +716,10 @@ body.light .hero-name-outline {
   .about-stats { gap: 1.5rem; }
 
   .exp-item { grid-template-columns: 1fr; gap: 0.75rem; }
+  .exp-meta:not(.exp-meta-inline) { display: none; }
+  .exp-meta-inline { display: flex; margin-bottom: 1rem; }
+  .exp-meta-inline .exp-date, .exp-meta-inline .exp-location { font-size: 0.8rem; color: var(--text-muted); }
+  .exp-meta-inline .exp-location::before { content: ' · '; }
 
   .projects-grid { grid-template-columns: 1fr; }
 
